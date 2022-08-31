@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    width: max-content;
+    height: auto;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputUser, .inputPassword {
+    margin-left: 20px;
+}
+
+.line1, .line2 {
+    display: flex;
+    align-items: center;
+}
+
+.line1 {
+    margin-bottom: 20px;
+}
+
+.btnSubmit {
+    margin-top: 20px;
+}
+
+.use-flex {
+    width: auto;
+    height: auto;
+}
+
+.header {
+    padding: 20px;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content div {
+    margin: 10px;
+    line-height: 1.5;
+    padding: 20px 10px 20px 10px;
+    background-color: aqua;
+}
+
+.content div h2 {
+    margin-bottom: 10px;
+}
